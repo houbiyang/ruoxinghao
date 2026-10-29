@@ -1,0 +1,15 @@
+package com.weaksignal.vpp.simulator;
+
+/**
+ * 模拟器允许执行的故障处置动作。
+ */
+public enum FaultActionType {
+    MARK_DATA_UNTRUSTED,
+    FREEZE_EXPIRED_COMMANDS,
+    REDUCE_TELEMETRY_RATE,
+    LIMIT_CONTROL_RAMP,
+    EXCLUDE_OFFLINE_CAPACITY,
+    ENTER_LOCAL_AUTONOMY,
+    ENABLE_CONSERVATIVE_ESTIMATE,
+    START_RATE_LIMITED_RECOVERY
+}

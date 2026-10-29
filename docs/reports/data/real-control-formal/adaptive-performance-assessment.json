@@ -1,0 +1,7 @@
+{
+  "fixed_weight_weak_scenario_rmse_kw": 0.7055374747892076,
+  "adaptive_weak_scenario_rmse_kw": 0.4684707926068864,
+  "adaptive_improvement_percent": 33.60086326430063,
+  "may_claim_performance_improvement": true,
+  "claim_threshold_percent": 10.0
+}

@@ -1,0 +1,18 @@
+package com.weaksignal.vpp.backend.marketagent;
+
+/**
+ * 市场调度多智能体类型。
+ */
+public enum MarketAgentType {
+    MARKET_INTERFACE,
+    FORECAST,
+    ENVIRONMENT_ASSESSMENT,
+    RESOURCE_CAPABILITY,
+    MARKET_DISPATCH,
+    COMMUNICATION_QUALITY,
+    CONTROL_DECISION,
+    RECOVERY_ORCHESTRATION,
+    SECURITY_AUDIT,
+    SETTLEMENT_EVALUATION,
+    ASSET_DIAGNOSIS
+}

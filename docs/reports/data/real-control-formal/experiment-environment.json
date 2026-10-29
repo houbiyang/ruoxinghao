@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-07-30T17:22:31.5216586+08:00",
+  "base_url": "http://127.0.0.1:8080",
+  "duration_seconds": 10,
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "strategies": [
+    "CENTRALIZED",
+    "FIXED_WEIGHT",
+    "ADAPTIVE"
+  ],
+  "scenarios": [
+    "T0_STABLE_BASELINE",
+    "COM_LATENCY",
+    "COM_PACKET_LOSS",
+    "COM_OFFLINE",
+    "COM_COMBINED"
+  ],
+  "expected_run_count": 75,
+  "actual_run_count": 75,
+  "reused_run_count": 75,
+  "new_run_count": 0,
+  "reuse_completed_runs_since": "2026-07-30T13:00:00+08:00",
+  "failure_count": 0,
+  "solver": {
+    "solverType": "OR_TOOLS_MILP",
+    "solverName": "OR_TOOLS_SCIP",
+    "solverVersion": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+    "configured": true,
+    "nativeLibraryLoaded": true,
+    "available": true,
+    "lastCheckAt": "2026-07-30T17:12:35.2609883+08:00",
+    "lastSolveStatus": null,
+    "lastSolveTimeMs": null,
+    "fallbackEnabled": true,
+    "fallbackActive": false,
+    "failureCategory": null,
+    "failureReason": null
+  },
+  "git_commit": "5bb4e0439c155ab66de86e8b17a86747cb386b41"
+}

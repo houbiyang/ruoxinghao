@@ -1,0 +1,132 @@
+server:
+  port: ${BACKEND_SERVER_PORT:8080}
+
+spring:
+  application:
+    name: weak-signal-vpp-backend
+  datasource:
+    url: ${POSTGRES_URL:jdbc:postgresql://127.0.0.1:5432/${POSTGRES_DB:vpp_platform}}
+    username: ${POSTGRES_USER:vpp_user}
+    password: ${POSTGRES_PASSWORD:replace_me}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: Asia/Shanghai
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
+  data:
+    redis:
+      host: ${REDIS_HOST:127.0.0.1}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:replace_me}
+      timeout: 3s
+  jackson:
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+app:
+  settings:
+    env-file: ${APP_ENV_FILE:../.env}
+  cors:
+    allowed-origin: ${BACKEND_ALLOWED_ORIGIN:http://127.0.0.1:4173}
+  mqtt:
+    host: ${MQTT_HOST:127.0.0.1}
+    port: ${MQTT_PORT:1883}
+    username: ${EMQX_USERNAME:vpp_client}
+    password: ${EMQX_PASSWORD:replace_me}
+    client-id: ${BACKEND_MQTT_CLIENT_ID:vpp-backend-core}
+    reconnect-delay-millis: ${BACKEND_MQTT_RECONNECT_DELAY_MS:3000}
+  redis:
+    latest-state-ttl-seconds: ${REDIS_LATEST_STATE_TTL_SECONDS:45}
+    heartbeat-ttl-seconds: ${REDIS_HEARTBEAT_TTL_SECONDS:20}
+  state-rule:
+    stable-latency-threshold: 80
+    stable-packet-loss-threshold: 1.0
+    stable-data-age-threshold: 3
+    degraded-latency-threshold: 150
+    degraded-packet-loss-threshold: 3.0
+    degraded-data-age-threshold: 6
+    severe-latency-threshold: 500
+    severe-packet-loss-threshold: 20.0
+    severe-data-age-threshold: 15
+    heartbeat-timeout-seconds: 15
+    minimum-state-hold-seconds: 5
+    recovering-hold-seconds: 6
+  planning:
+    interval-minutes: ${PLANNING_INTERVAL_MINUTES:60}
+    maximum-data-age-seconds: ${PLANNING_MAXIMUM_DATA_AGE_SECONDS:60}
+    mpc:
+      planned-balance-tolerance-kw: ${MPC_PLANNED_BALANCE_TOLERANCE_KW:1.0}
+      actual-balance-tolerance-kw: ${MPC_ACTUAL_BALANCE_TOLERANCE_KW:1.0}
+      default-resource-tracking-tolerance-kw: ${MPC_RESOURCE_TRACKING_TOLERANCE_KW:1.0}
+      required-satisfied-samples: ${MPC_REQUIRED_SATISFIED_SAMPLES:3}
+      telemetry-maximum-age: ${MPC_TELEMETRY_MAXIMUM_AGE:45s}
+      execution-stabilization-wait: ${MPC_EXECUTION_STABILIZATION_WAIT:15s}
+      round-convergence-timeout: ${MPC_ROUND_CONVERGENCE_TIMEOUT:2m}
+      minimum-reoptimization-interval: ${MPC_MINIMUM_REOPTIMIZATION_INTERVAL:15s}
+      maximum-rolling-rounds: ${MPC_MAXIMUM_ROLLING_ROUNDS:3}
+      overall-closed-loop-timeout: ${MPC_OVERALL_CLOSED_LOOP_TIMEOUT:10m}
+      optimization-computation-timeout: ${MPC_OPTIMIZATION_COMPUTATION_TIMEOUT:30s}
+      plan-minimum-remaining-validity: ${MPC_PLAN_MINIMUM_REMAINING_VALIDITY:15s}
+    optimizer:
+      optimizer-type: OR_TOOLS_MILP
+      solver-time-limit-seconds: ${MPC_SOLVER_TIME_LIMIT_SECONDS:30}
+      relative-mip-gap: ${MPC_RELATIVE_MIP_GAP:0.01}
+      enable-rule-fallback: ${MPC_ENABLE_RULE_FALLBACK:true}
+      diagnostic-relaxation-enabled: ${MPC_DIAGNOSTIC_RELAXATION_ENABLED:true}
+      grid-import-cost-weight: 1.0
+      thermal-operation-cost-weight: 0.8
+      thermal-startup-cost-weight: 2.0
+      storage-cycle-cost-weight: 0.2
+      curtailment-cost-weight: 1.5
+      flexible-load-cost-weight: 0.3
+      target-change-cost-weight: 0.05
+      tracking-error-cost-weight: 0.1
+      thermal-minimum-up-minutes: ${MPC_THERMAL_MINIMUM_UP_MINUTES:60}
+      thermal-minimum-down-minutes: ${MPC_THERMAL_MINIMUM_DOWN_MINUTES:60}
+  experiment:
+    required-fault-evidence-samples: ${EXPERIMENT_REQUIRED_FAULT_EVIDENCE_SAMPLES:3}
+    recovery-timeout-seconds: ${EXPERIMENT_RECOVERY_TIMEOUT_SECONDS:120}
+  distributed-dispatch:
+    configuration-version: distributed-control-v1
+    normal-step-size: 0.05
+    degraded-step-size: 0.03
+    severe-step-size: 0.01
+    recovery-step-size: 0.02
+    normal-message-period-millis: 200
+    degraded-message-period-millis: 500
+    severe-message-period-millis: 1000
+    recovery-message-period-millis: 500
+    normal-message-validity-millis: 1000
+    degraded-message-validity-millis: 3000
+    severe-message-validity-millis: 1500
+    recovery-message-validity-millis: 2000
+    latency-weight: 0.34
+    packet-loss-weight: 0.33
+    data-age-weight: 0.33
+    balance-tolerance-kw: 1.0
+    consensus-tolerance: 0.01
+    required-consecutive-iterations: 10
+    recovery-ramp-factor: 0.5
+  ai:
+    enabled: ${VPP_AI_ENABLED:false}
+    maximum-context-characters: ${VPP_AI_MAX_CONTEXT_CHARACTERS:6000}
+    deepseek:
+      enabled: ${DEEPSEEK_ENABLED:false}
+      base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+      api-key: ${DEEPSEEK_API_KEY:}
+      model: ${DEEPSEEK_MODEL:deepseek-v4-flash}
+      timeout-seconds: ${DEEPSEEK_TIMEOUT_SECONDS:30}
