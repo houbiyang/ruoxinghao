@@ -35,7 +35,7 @@ Spring Boot 的 PostgreSQL JDBC 版本可在 [3.5.5 依赖管理 POM](https://re
 | [Vite](https://registry.npmjs.org/vite/5.4.19) | 5.4.19 | MIT | 开发依赖 |
 | [vue-tsc](https://registry.npmjs.org/vue-tsc/2.2.12) | 2.2.12 | MIT | 开发依赖 |
 
-`frontend/package-lock.json` 固定了传递依赖版本，逐项 npm 许可字段见 CSV。发布编译后的前端文件时，仍须核对所含第三方代码的许可证文本和版权声明是否随分发包保留。
+`frontend/package-lock.json` 固定了传递依赖版本，逐项 npm 许可字段见 CSV。比赛运行包已按生产锁文件收集许可文本，具体覆盖和剩余缺口见[二进制运行包核对](submission-package-audit.md)；这不等于逐字节确认前端 bundle 的所有第三方代码归属。
 
 ## 多许可证条目与分发边界
 
@@ -49,7 +49,7 @@ CSV 保留上游 POM 中的全部许可名称。以下为本项目在当前源�
 | `jna`、`jna-platform` 5.14.0 | LGPL-2.1-or-later 或 Apache-2.0 | Apache-2.0 |
 | `HdrHistogram` 2.2.2 | CC0 或 BSD-2-Clause | BSD-2-Clause |
 
-`hibernate-core` 6.6.26.Final 的上游 POM 声明 LGPL-2.1-or-later，并非上表的双许可证选择项。本仓库仅发布源码，不包含第三方 JAR；未来若发布包含 Hibernate 的二进制包，需要另行检查其 LGPL 条件并提供适用的许可证文本和版权信息。
+`hibernate-core` 6.6.26.Final 的上游 POM 声明 LGPL-2.1-or-later，并非上表的双许可证选择项。本 GitHub 仓库只发布项目源码；独立比赛运行包包含第三方 JAR，现随包提供 LGPL 正文、Hibernate 对应版本的未修改源码 JAR 及获取路径。其余版权与分发义务仍以[二进制运行包核对](submission-package-audit.md)所列实际证据和剩余事项为准。
 
 ## 本地基础设施镜像
 
@@ -59,7 +59,7 @@ CSV 保留上游 POM 中的全部许可名称。以下为本项目在当前源�
 | `emqx/emqx:5.8.6` | [EMQX 官方说明](https://www.emqx.com/en/content/license-faq)称 5.9.0 之前的开源版本保持 Apache-2.0 | 只记录当前指定版本；升级时须重新核对。 |
 | `redis:7.2` | [Redis 官方许可说明](https://redis.io/legal/licenses/)列明 7.2.x 适用 BSD-3-Clause | 已从 7.4 调整到 7.2；2026-10-29 拉取到 7.2.17，隔离 Compose 的 Redis、PostgreSQL 与 EMQX 均通过健康检查。 |
 
-以上镜像通过 Compose 拉取，本仓库不包含镜像本体。若制作含镜像或第三方二进制的分发包，需另行核对其完整许可、版权声明和分发条件。
+以上镜像通过 Compose 拉取，本仓库和比赛 ZIP 均不包含镜像本体。比赛 ZIP 包含第三方 JAR 和编译前端文件，其随包文本及未完成核对项见[二进制运行包核对](submission-package-audit.md)；若以后把镜像本体打包分发，应另行检查镜像层许可。
 
 隔离回归使用独立容器名、端口和数据卷：后端连接 PostgreSQL、Redis 7.2 和 EMQX 后，`/actuator/health` 返回 `UP`，模拟器接入 MQTT，`/api/v1/stations` 返回 7 个在线场站。该验证说明当前软件链路可在 Redis 7.2 上运行；它不覆盖旧容器数据迁移、所有故障场景或真实设备接入。
 
@@ -67,5 +67,5 @@ CSV 保留上游 POM 中的全部许可名称。以下为本项目在当前源�
 
 - 新增或升级依赖前，记录精确版本、官方许可证来源、使用位置及分发方式。
 - 对双重许可、非 OSI 许可或许可字段缺失的组件，先确认使用条件，再决定是否保留或替换。
-- 发布包含第三方构件的二进制包前，核对容器镜像层、版权声明和必要的许可证文本；源码仓库当前不包含这些镜像或构建产物。
+- 更新独立比赛运行包前，按[运行包构件清单](runtime-binary-inventory.csv)与[二进制运行包核对](submission-package-audit.md)重新核对实际 JAR、前端生产依赖、版权声明和必要的 NOTICE；源码仓库当前不包含镜像或构建产物。
 - 许可元数据核对不等于完整法律合规结论。CSV 中的双重许可、LGPL 等条目在改变分发方式时需要重新审查具体义务。

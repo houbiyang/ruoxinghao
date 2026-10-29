@@ -1,0 +1,16 @@
+﻿file,source,sha256
+Apache-2.0.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/Apache-2.0.txt,074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff
+BSD-3-Clause.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/BSD-3-Clause.txt,5a93d5831e1297ab10fe643e1a631e83be392896da14ee2951285a79012df69d
+EPL-1.0.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/EPL-1.0.txt,f3d8dc494be2e7ea9cd31ac2fb902e35dce7ff8181b9b30d05861b47c339cb25
+EPL-2.0.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/EPL-2.0.txt,61616a4066701bc7888ad910de1633dbc55eb4d4d30d930feef55afb9492e33c
+LGPL-2.1-or-later.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/LGPL-2.1-or-later.txt,5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2
+MIT.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/MIT.txt,b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5
+MIT-0.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/MIT-0.txt,59746d6285ffa44bfc7ecada352aa5d6a20dc8eab418a60ce091cc739012c135
+CC0-1.0.txt,https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/CC0-1.0.txt,a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499
+element-plus-2.11.0.txt,https://raw.githubusercontent.com/element-plus/element-plus/2.11.0/LICENSE,0790118bb4d66681db1d63181f72ef68e632d632f6db0373ef87cf328561af27
+vue-devtools-api-6.6.4.txt,https://raw.githubusercontent.com/vuejs/devtools-v6/v6.6.4/LICENSE,050bbca6960784db52ff387271bf2ecc5cbed7cf8581b415d528a6ecb6585015
+protobuf-java-4.33.1.txt,https://raw.githubusercontent.com/protocolbuffers/protobuf/v33.1/LICENSE,6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d
+ortools-9.15.txt,https://raw.githubusercontent.com/google/or-tools/v9.15/LICENSE,cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+reactive-streams-1.0.4.txt,https://raw.githubusercontent.com/reactive-streams/reactive-streams/v1.0.4/LICENSE,96a3b2d45af72054d0676e8eb9a944a096812a7f8ff1b71bd82dadbc60ce0444
+antlr4-runtime-4.13.0.txt,https://raw.githubusercontent.com/antlr/antlr4/4.13.0/LICENSE.txt,3db1fb3ee79a4b4f9918fc4d0f6133bf18a3cf787f126cd22f8aa9b862281c0c
+EDL-1.0-from-jaxb-runtime-4.0.5.txt,backend.jar!/BOOT-INF/lib/jaxb-runtime-4.0.5.jar!/META-INF/LICENSE.md,c56e52168c596cb8ca8dca3a648886f19924461928eb8102f5eb31710aee9e31

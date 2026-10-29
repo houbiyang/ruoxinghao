@@ -161,7 +161,7 @@ npm,@floating-ui/core,1.7.5,frontend:runtime,MIT,https://registry.npmjs.org/@flo
 npm,@floating-ui/dom,1.7.6,frontend:runtime,MIT,https://registry.npmjs.org/@floating-ui/dom/1.7.6
 npm,@floating-ui/utils,0.2.11,frontend:runtime,MIT,https://registry.npmjs.org/@floating-ui/utils/0.2.11
 npm,@jridgewell/sourcemap-codec,1.5.5,frontend:runtime,MIT,https://registry.npmjs.org/@jridgewell/sourcemap-codec/1.5.5
-npm,@popperjs/core,2.11.8,frontend:runtime,MIT,https://registry.npmjs.org/@popperjs/core/2.11.8
+npm,@popperjs/core,2.11.8,frontend:runtime,MIT,https://registry.npmjs.org/@sxzz%2fpopperjs-es/2.11.8
 npm,@rollup/rollup-android-arm-eabi,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/4.62.2
 npm,@rollup/rollup-android-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-android-arm64/4.62.2
 npm,@rollup/rollup-darwin-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-darwin-arm64/4.62.2
