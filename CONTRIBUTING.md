@@ -13,6 +13,8 @@
 
 请勿在 Issue、提交记录或代码中公开密码、令牌、私钥、真实设备凭据或未授权的现场数据。
 
+维护者会先判断问题能否复现、是否属于软件模拟项目的范围，再在 Issue 中记录处理结论；修复通过 PR 关联 Issue，合并后核对 Issue 是否关闭。暂时无法复现或缺少必要证据的问题，会说明还需要哪些信息。单人维护期间不承诺固定响应时限。
+
 ## 提交功能建议
 
 功能建议请说明要解决的实际问题、目标使用场景、预期行为以及对现有接口和数据的影响。涉及控制安全、资源约束或运行证据的改动，应同时说明验证方法和适用边界。
@@ -35,9 +37,9 @@
    npm run build
    ```
 
-5. 提交拉取请求时，按仓库模板说明改动目的、影响范围、验证命令和未覆盖的边界。单人维护者会在确认需求、代码和验证结果后决定是否合并。
+5. 提交拉取请求时，按仓库模板说明改动目的、影响范围、验证命令和未覆盖的边界。单人维护者会检查关联 Issue、代码改动、验证结果和依赖许可记录，再决定是否合并；合并后核对主分支及关联 Issue 的状态。
 
-新增或升级第三方依赖时，请同步更新 [`docs/open-source/dependency-licenses.md`](docs/open-source/dependency-licenses.md)，核对版本、上游许可来源和分发条件。现有直接依赖的核对范围与未完成项也记录在该文档中。
+新增或升级第三方依赖时，请同步更新 [`docs/open-source/dependency-audit.csv`](docs/open-source/dependency-audit.csv) 和 [`docs/open-source/dependency-licenses.md`](docs/open-source/dependency-licenses.md)，核对版本、上游许可来源和分发条件，并运行 `scripts/check-dependency-audit.ps1`。PR 中的自动检查也会核对清单是否与 Maven 依赖树和 npm 锁文件一致。首次治理问题和处理记录可在 [Issue #1](https://github.com/houbiyang/ruoxinghao/issues/1) 与 [PR #2](https://github.com/houbiyang/ruoxinghao/pull/2) 核查。
 
 ## 许可证
 

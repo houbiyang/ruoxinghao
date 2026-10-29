@@ -12,7 +12,7 @@
 
 ## 依赖与许可
 
-如新增或升级第三方依赖，请更新 `docs/open-source/dependency-licenses.md`，记录版本、上游许可来源与分发条件。未改动依赖可填写“无”。
+如新增或升级第三方依赖，请更新 `docs/open-source/dependency-audit.csv` 和 `docs/open-source/dependency-licenses.md`，记录版本、上游许可来源与分发条件，并附上 `scripts/check-dependency-audit.ps1` 的执行结果。未改动依赖可填写“无”。
 
 ## 已知边界
 
