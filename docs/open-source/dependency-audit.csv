@@ -1,0 +1,265 @@
+﻿ecosystem,package,version,usage,declared_license,license_metadata_url
+Maven,ch.qos.logback:logback-classic,1.5.18,backend:compile,Eclipse Public License - v 1.0; GNU Lesser General Public License,https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom
+Maven,ch.qos.logback:logback-core,1.5.18,backend:compile,Eclipse Public License - v 1.0; GNU Lesser General Public License,https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.5.18/logback-parent-1.5.18.pom
+Maven,com.fasterxml:classmate,1.7.0,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.7.0/classmate-1.7.0.pom
+Maven,com.fasterxml.jackson.core:jackson-annotations,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.pom
+Maven,com.fasterxml.jackson.core:jackson-core,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.pom
+Maven,com.fasterxml.jackson.core:jackson-databind,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.pom
+Maven,com.fasterxml.jackson.datatype:jackson-datatype-jdk8,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.2/jackson-base-2.19.2.pom
+Maven,com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.2/jackson-base-2.19.2.pom
+Maven,com.fasterxml.jackson.module:jackson-module-parameter-names,2.19.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.2/jackson-base-2.19.2.pom
+Maven,com.google.ortools:ortools-darwin-aarch64,9.15.6755,backend:runtime,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-darwin-aarch64/9.15.6755/ortools-darwin-aarch64-9.15.6755.pom
+Maven,com.google.ortools:ortools-darwin-x86-64,9.15.6755,backend:runtime,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-darwin-x86-64/9.15.6755/ortools-darwin-x86-64-9.15.6755.pom
+Maven,com.google.ortools:ortools-java,9.15.6755,backend:compile,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-java/9.15.6755/ortools-java-9.15.6755.pom
+Maven,com.google.ortools:ortools-linux-aarch64,9.15.6755,backend:runtime,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-linux-aarch64/9.15.6755/ortools-linux-aarch64-9.15.6755.pom
+Maven,com.google.ortools:ortools-linux-x86-64,9.15.6755,backend:runtime,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-linux-x86-64/9.15.6755/ortools-linux-x86-64-9.15.6755.pom
+Maven,com.google.ortools:ortools-win32-x86-64,9.15.6755,backend:runtime,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/com/google/ortools/ortools-win32-x86-64/9.15.6755/ortools-win32-x86-64-9.15.6755.pom
+Maven,com.google.protobuf:protobuf-java,4.33.1,backend:compile,BSD-3-Clause,https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/4.33.1/protobuf-parent-4.33.1.pom
+Maven,com.jayway.jsonpath:json-path,2.9.0,backend:test,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.pom
+Maven,com.sun.istack:istack-commons-runtime,4.1.2,backend:runtime,Eclipse Distribution License - v 1.0,https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.2/istack-commons-4.1.2.pom
+Maven,com.vaadin.external.google:android-json,0.0.20131108.vaadin1,backend:test,Apache License 2.0,https://repo.maven.apache.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom
+Maven,com.zaxxer:HikariCP,6.3.2,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.3.2/HikariCP-6.3.2.pom
+Maven,io.lettuce:lettuce-core,6.6.0.RELEASE,backend:compile,MIT,https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.6.0.RELEASE/lettuce-core-6.6.0.RELEASE.pom
+Maven,io.micrometer:micrometer-commons,1.15.3,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.15.3/micrometer-commons-1.15.3.pom
+Maven,io.micrometer:micrometer-core,1.15.3,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.15.3/micrometer-core-1.15.3.pom
+Maven,io.micrometer:micrometer-jakarta9,1.15.3,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.15.3/micrometer-jakarta9-1.15.3.pom
+Maven,io.micrometer:micrometer-observation,1.15.3,backend:compile,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.15.3/micrometer-observation-1.15.3.pom
+Maven,io.netty:netty-buffer,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-codec,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-common,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-handler,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-resolver,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-transport,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.netty:netty-transport-native-unix-common,4.1.124.Final,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.124.Final/netty-parent-4.1.124.Final.pom
+Maven,io.projectreactor:reactor-core,3.7.9,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.7.9/reactor-core-3.7.9.pom
+Maven,io.smallrye:jandex,3.2.0,backend:runtime,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/io/smallrye/smallrye-build-parent/42/smallrye-build-parent-42.pom
+Maven,jakarta.activation:jakarta.activation-api,2.1.3,backend:runtime,EDL 1.0,https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.pom
+Maven,jakarta.annotation:jakarta.annotation-api,2.1.1,backend:compile,EPL 2.0; GPL2 w/ CPE,https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.pom
+Maven,jakarta.inject:jakarta.inject-api,2.0.1,backend:runtime,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.pom
+Maven,jakarta.persistence:jakarta.persistence-api,3.1.0,backend:compile,Eclipse Public License v. 2.0; Eclipse Distribution License v. 1.0,https://repo.maven.apache.org/maven2/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.pom
+Maven,jakarta.transaction:jakarta.transaction-api,2.0.1,backend:compile,EPL 2.0; GPL2 w/ CPE,https://repo.maven.apache.org/maven2/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.pom
+Maven,jakarta.validation:jakarta.validation-api,3.0.2,backend:compile,Apache License 2.0,https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.pom
+Maven,jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,backend:runtime,Eclipse Distribution License - v 1.0,https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.2/jakarta.xml.bind-api-parent-4.0.2.pom
+Maven,net.bytebuddy:byte-buddy,1.17.7,backend:runtime,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.17.7/byte-buddy-parent-1.17.7.pom
+Maven,net.bytebuddy:byte-buddy-agent,1.17.7,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.17.7/byte-buddy-parent-1.17.7.pom
+Maven,net.java.dev.jna:jna,5.14.0,backend:compile,LGPL-2.1-or-later; Apache-2.0,https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.pom
+Maven,net.java.dev.jna:jna-platform,5.14.0,backend:compile,LGPL-2.1-or-later; Apache-2.0,https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.pom
+Maven,net.minidev:accessors-smart,2.5.2,backend:test,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.pom
+Maven,net.minidev:json-smart,2.5.2,backend:test,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.5.2/json-smart-2.5.2.pom
+Maven,org.antlr:antlr4-runtime,4.13.0,backend:compile,BSD-3-Clause,https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.13.0/antlr4-master-4.13.0.pom
+Maven,org.apache.logging.log4j:log4j-api,2.24.3,backend:compile,Apache-2.0,https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.pom
+Maven,org.apache.logging.log4j:log4j-to-slf4j,2.24.3,backend:compile,Apache-2.0,https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.pom
+Maven,org.apache.tomcat.embed:tomcat-embed-core,10.1.44,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.44/tomcat-embed-core-10.1.44.pom
+Maven,org.apache.tomcat.embed:tomcat-embed-el,10.1.44,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.44/tomcat-embed-el-10.1.44.pom
+Maven,org.apache.tomcat.embed:tomcat-embed-websocket,10.1.44,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.44/tomcat-embed-websocket-10.1.44.pom
+Maven,org.apiguardian:apiguardian-api,1.1.2,backend:test; simulator:test,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+Maven,org.aspectj:aspectjweaver,1.9.24,backend:compile,Eclipse Public License - v 2.0,https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.24/aspectjweaver-1.9.24.pom
+Maven,org.assertj:assertj-core,3.27.4,backend:test,Apache-2.0,https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.4/assertj-core-3.27.4.pom
+Maven,org.awaitility:awaitility,4.2.2,backend:test,Apache 2.0,https://repo.maven.apache.org/maven2/org/awaitility/awaitility-parent/4.2.2/awaitility-parent-4.2.2.pom
+Maven,org.checkerframework:checker-qual,3.49.3,backend:runtime,The MIT License,https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.pom
+Maven,org.eclipse.angus:angus-activation,2.0.2,backend:runtime,EDL 1.0,https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.2/angus-activation-project-2.0.2.pom
+Maven,org.eclipse.paho:org.eclipse.paho.mqttv5.client,1.2.5,backend:compile; simulator:compile,Eclipse Public License - Version 2.0,https://repo.maven.apache.org/maven2/org/eclipse/paho/java-parent/1.2.5/java-parent-1.2.5.pom
+Maven,org.glassfish.jaxb:jaxb-core,4.0.5,backend:runtime,Eclipse Distribution License - v 1.0,https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom
+Maven,org.glassfish.jaxb:jaxb-runtime,4.0.5,backend:runtime,Eclipse Distribution License - v 1.0,https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom
+Maven,org.glassfish.jaxb:txw2,4.0.5,backend:runtime,Eclipse Distribution License - v 1.0,https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom
+Maven,org.hamcrest:hamcrest,3.0,backend:test,BSD-3-Clause,https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/3.0/hamcrest-3.0.pom
+Maven,org.hdrhistogram:HdrHistogram,2.2.2,backend:runtime,"Public Domain, per Creative Commons CC0; BSD-2-Clause",https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.pom
+Maven,org.hibernate.common:hibernate-commons-annotations,7.0.3.Final,backend:runtime,Apache License Version 2.0,https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.pom
+Maven,org.hibernate.orm:hibernate-core,6.6.26.Final,backend:compile,GNU Library General Public License v2.1 or later,https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.6.26.Final/hibernate-core-6.6.26.Final.pom
+Maven,org.hibernate.validator:hibernate-validator,8.0.3.Final,backend:compile,Apache License 2.0,https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.3.Final/hibernate-validator-8.0.3.Final.pom
+Maven,org.jboss.logging:jboss-logging,3.6.1.Final,backend:compile,Apache License 2.0,https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.pom
+Maven,org.junit.jupiter:junit-jupiter,5.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.12.2/junit-jupiter-5.12.2.pom
+Maven,org.junit.jupiter:junit-jupiter-api,5.10.2,simulator:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.pom
+Maven,org.junit.jupiter:junit-jupiter-api,5.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.12.2/junit-jupiter-api-5.12.2.pom
+Maven,org.junit.jupiter:junit-jupiter-engine,5.10.2,simulator:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.pom
+Maven,org.junit.jupiter:junit-jupiter-engine,5.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.12.2/junit-jupiter-engine-5.12.2.pom
+Maven,org.junit.jupiter:junit-jupiter-params,5.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.12.2/junit-jupiter-params-5.12.2.pom
+Maven,org.junit.platform:junit-platform-commons,1.10.2,simulator:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.pom
+Maven,org.junit.platform:junit-platform-commons,1.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.pom
+Maven,org.junit.platform:junit-platform-engine,1.10.2,simulator:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.pom
+Maven,org.junit.platform:junit-platform-engine,1.12.2,backend:test,Eclipse Public License v2.0,https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.pom
+Maven,org.latencyutils:LatencyUtils,2.0.3,backend:runtime,"Public Domain, per Creative Commons CC0",https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.pom
+Maven,org.mockito:mockito-core,5.17.0,backend:test,MIT,https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.17.0/mockito-core-5.17.0.pom
+Maven,org.mockito:mockito-junit-jupiter,5.17.0,backend:test,MIT,https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/5.17.0/mockito-junit-jupiter-5.17.0.pom
+Maven,org.objenesis:objenesis,3.3,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom
+Maven,org.opentest4j:opentest4j,1.3.0,backend:test; simulator:test,"The Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom
+Maven,org.ow2.asm:asm,9.7.1,backend:test,BSD-3-Clause,https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.pom
+Maven,org.postgresql:postgresql,42.7.7,backend:runtime,BSD-2-Clause,https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.pom
+Maven,org.reactivestreams:reactive-streams,1.0.4,backend:compile,MIT-0,https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.pom
+Maven,org.skyscreamer:jsonassert,1.5.3,backend:test,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.pom
+Maven,org.slf4j:jul-to-slf4j,2.0.17,backend:compile,MIT,https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom
+Maven,org.slf4j:slf4j-api,2.0.17,backend:compile,MIT,https://repo.maven.apache.org/maven2/org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom
+Maven,org.springframework:spring-aop,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.10/spring-aop-6.2.10.pom
+Maven,org.springframework:spring-aspects,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.2.10/spring-aspects-6.2.10.pom
+Maven,org.springframework:spring-beans,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.10/spring-beans-6.2.10.pom
+Maven,org.springframework:spring-context,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.10/spring-context-6.2.10.pom
+Maven,org.springframework:spring-context-support,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/6.2.10/spring-context-support-6.2.10.pom
+Maven,org.springframework:spring-core,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.10/spring-core-6.2.10.pom
+Maven,org.springframework:spring-expression,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.10/spring-expression-6.2.10.pom
+Maven,org.springframework:spring-jcl,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.10/spring-jcl-6.2.10.pom
+Maven,org.springframework:spring-jdbc,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.2.10/spring-jdbc-6.2.10.pom
+Maven,org.springframework:spring-orm,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.2.10/spring-orm-6.2.10.pom
+Maven,org.springframework:spring-oxm,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.2.10/spring-oxm-6.2.10.pom
+Maven,org.springframework:spring-test,6.2.10,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.10/spring-test-6.2.10.pom
+Maven,org.springframework:spring-tx,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.2.10/spring-tx-6.2.10.pom
+Maven,org.springframework:spring-web,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.10/spring-web-6.2.10.pom
+Maven,org.springframework:spring-webmvc,6.2.10,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.10/spring-webmvc-6.2.10.pom
+Maven,org.springframework.boot:spring-boot,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.5.5/spring-boot-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-actuator,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.5.5/spring-boot-actuator-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-actuator-autoconfigure,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.5.5/spring-boot-actuator-autoconfigure-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-autoconfigure,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.5.5/spring-boot-autoconfigure-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.5.5/spring-boot-starter-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-actuator,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.5.5/spring-boot-starter-actuator-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-data-jpa,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.5.5/spring-boot-starter-data-jpa-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-data-redis,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis/3.5.5/spring-boot-starter-data-redis-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-jdbc,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.5.5/spring-boot-starter-jdbc-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-json,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.5.5/spring-boot-starter-json-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-logging,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.5.5/spring-boot-starter-logging-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-test,3.5.5,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.5.5/spring-boot-starter-test-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-tomcat,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.5.5/spring-boot-starter-tomcat-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-validation,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.5.5/spring-boot-starter-validation-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-starter-web,3.5.5,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.5.5/spring-boot-starter-web-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-test,3.5.5,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.5.5/spring-boot-test-3.5.5.pom
+Maven,org.springframework.boot:spring-boot-test-autoconfigure,3.5.5,backend:test,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.5.5/spring-boot-test-autoconfigure-3.5.5.pom
+Maven,org.springframework.data:spring-data-commons,3.5.3,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.3/spring-data-parent-3.5.3.pom
+Maven,org.springframework.data:spring-data-jpa,3.5.3,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.3/spring-data-parent-3.5.3.pom
+Maven,org.springframework.data:spring-data-keyvalue,3.5.3,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.3/spring-data-parent-3.5.3.pom
+Maven,org.springframework.data:spring-data-redis,3.5.3,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.5.3/spring-data-parent-3.5.3.pom
+Maven,org.xmlunit:xmlunit-core,2.10.3,backend:test,"The Apache Software License, Version 2.0",https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.3/xmlunit-parent-2.10.3.pom
+Maven,org.yaml:snakeyaml,2.4,backend:compile,"Apache License, Version 2.0",https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.4/snakeyaml-2.4.pom
+Maven,redis.clients.authentication:redis-authx-core,0.1.1-beta2,backend:compile,MIT,https://repo.maven.apache.org/maven2/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.pom
+npm,@babel/helper-string-parser,7.29.7,frontend:runtime,MIT,https://registry.npmjs.org/@babel/helper-string-parser/7.29.7
+npm,@babel/helper-validator-identifier,7.29.7,frontend:runtime,MIT,https://registry.npmjs.org/@babel/helper-validator-identifier/7.29.7
+npm,@babel/parser,7.29.7,frontend:runtime,MIT,https://registry.npmjs.org/@babel/parser/7.29.7
+npm,@babel/types,7.29.7,frontend:runtime,MIT,https://registry.npmjs.org/@babel/types/7.29.7
+npm,@ctrl/tinycolor,3.6.1,frontend:runtime,MIT,https://registry.npmjs.org/@ctrl/tinycolor/3.6.1
+npm,@element-plus/icons-vue,2.3.2,frontend:runtime,MIT,https://registry.npmjs.org/@element-plus/icons-vue/2.3.2
+npm,@esbuild/aix-ppc64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/aix-ppc64/0.21.5
+npm,@esbuild/android-arm,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/android-arm/0.21.5
+npm,@esbuild/android-arm64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/android-arm64/0.21.5
+npm,@esbuild/android-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/android-x64/0.21.5
+npm,@esbuild/darwin-arm64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/darwin-arm64/0.21.5
+npm,@esbuild/darwin-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/darwin-x64/0.21.5
+npm,@esbuild/freebsd-arm64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/freebsd-arm64/0.21.5
+npm,@esbuild/freebsd-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/freebsd-x64/0.21.5
+npm,@esbuild/linux-arm,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-arm/0.21.5
+npm,@esbuild/linux-arm64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-arm64/0.21.5
+npm,@esbuild/linux-ia32,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-ia32/0.21.5
+npm,@esbuild/linux-loong64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-loong64/0.21.5
+npm,@esbuild/linux-mips64el,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-mips64el/0.21.5
+npm,@esbuild/linux-ppc64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-ppc64/0.21.5
+npm,@esbuild/linux-riscv64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-riscv64/0.21.5
+npm,@esbuild/linux-s390x,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-s390x/0.21.5
+npm,@esbuild/linux-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/linux-x64/0.21.5
+npm,@esbuild/netbsd-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/netbsd-x64/0.21.5
+npm,@esbuild/openbsd-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/openbsd-x64/0.21.5
+npm,@esbuild/sunos-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/sunos-x64/0.21.5
+npm,@esbuild/win32-arm64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/win32-arm64/0.21.5
+npm,@esbuild/win32-ia32,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/win32-ia32/0.21.5
+npm,@esbuild/win32-x64,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/@esbuild/win32-x64/0.21.5
+npm,@floating-ui/core,1.7.5,frontend:runtime,MIT,https://registry.npmjs.org/@floating-ui/core/1.7.5
+npm,@floating-ui/dom,1.7.6,frontend:runtime,MIT,https://registry.npmjs.org/@floating-ui/dom/1.7.6
+npm,@floating-ui/utils,0.2.11,frontend:runtime,MIT,https://registry.npmjs.org/@floating-ui/utils/0.2.11
+npm,@jridgewell/sourcemap-codec,1.5.5,frontend:runtime,MIT,https://registry.npmjs.org/@jridgewell/sourcemap-codec/1.5.5
+npm,@popperjs/core,2.11.8,frontend:runtime,MIT,https://registry.npmjs.org/@popperjs/core/2.11.8
+npm,@rollup/rollup-android-arm-eabi,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/4.62.2
+npm,@rollup/rollup-android-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-android-arm64/4.62.2
+npm,@rollup/rollup-darwin-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-darwin-arm64/4.62.2
+npm,@rollup/rollup-darwin-x64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-darwin-x64/4.62.2
+npm,@rollup/rollup-freebsd-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/4.62.2
+npm,@rollup/rollup-freebsd-x64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-freebsd-x64/4.62.2
+npm,@rollup/rollup-linux-arm-gnueabihf,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/4.62.2
+npm,@rollup/rollup-linux-arm-musleabihf,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/4.62.2
+npm,@rollup/rollup-linux-arm64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/4.62.2
+npm,@rollup/rollup-linux-arm64-musl,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/4.62.2
+npm,@rollup/rollup-linux-loong64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/4.62.2
+npm,@rollup/rollup-linux-loong64-musl,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-loong64-musl/4.62.2
+npm,@rollup/rollup-linux-ppc64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/4.62.2
+npm,@rollup/rollup-linux-ppc64-musl,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-ppc64-musl/4.62.2
+npm,@rollup/rollup-linux-riscv64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/4.62.2
+npm,@rollup/rollup-linux-riscv64-musl,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/4.62.2
+npm,@rollup/rollup-linux-s390x-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/4.62.2
+npm,@rollup/rollup-linux-x64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/4.62.2
+npm,@rollup/rollup-linux-x64-musl,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/4.62.2
+npm,@rollup/rollup-openbsd-x64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-openbsd-x64/4.62.2
+npm,@rollup/rollup-openharmony-arm64,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/4.62.2
+npm,@rollup/rollup-win32-arm64-msvc,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/4.62.2
+npm,@rollup/rollup-win32-ia32-msvc,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/4.62.2
+npm,@rollup/rollup-win32-x64-gnu,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/4.62.2
+npm,@rollup/rollup-win32-x64-msvc,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/4.62.2
+npm,@types/estree,1.0.9,frontend:dev,MIT,https://registry.npmjs.org/@types/estree/1.0.9
+npm,@types/lodash,4.17.24,frontend:runtime,MIT,https://registry.npmjs.org/@types/lodash/4.17.24
+npm,@types/lodash-es,4.17.12,frontend:runtime,MIT,https://registry.npmjs.org/@types/lodash-es/4.17.12
+npm,@types/node,24.0.10,frontend:dev,MIT,https://registry.npmjs.org/@types/node/24.0.10
+npm,@types/web-bluetooth,0.0.16,frontend:runtime,MIT,https://registry.npmjs.org/@types/web-bluetooth/0.0.16
+npm,@vitejs/plugin-vue,5.2.4,frontend:dev,MIT,https://registry.npmjs.org/@vitejs/plugin-vue/5.2.4
+npm,@volar/language-core,2.4.15,frontend:dev,MIT,https://registry.npmjs.org/@volar/language-core/2.4.15
+npm,@volar/source-map,2.4.15,frontend:dev,MIT,https://registry.npmjs.org/@volar/source-map/2.4.15
+npm,@volar/typescript,2.4.15,frontend:dev,MIT,https://registry.npmjs.org/@volar/typescript/2.4.15
+npm,@vue/compiler-core,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/compiler-core/3.5.17
+npm,@vue/compiler-dom,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/compiler-dom/3.5.17
+npm,@vue/compiler-sfc,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/compiler-sfc/3.5.17
+npm,@vue/compiler-ssr,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/compiler-ssr/3.5.17
+npm,@vue/compiler-vue2,2.7.16,frontend:dev,MIT,https://registry.npmjs.org/@vue/compiler-vue2/2.7.16
+npm,@vue/devtools-api,6.6.4,frontend:runtime,MIT,https://registry.npmjs.org/@vue/devtools-api/6.6.4
+npm,@vue/devtools-api,7.7.10,frontend:runtime,MIT,https://registry.npmjs.org/@vue/devtools-api/7.7.10
+npm,@vue/devtools-kit,7.7.10,frontend:runtime,MIT,https://registry.npmjs.org/@vue/devtools-kit/7.7.10
+npm,@vue/devtools-shared,7.7.10,frontend:runtime,MIT,https://registry.npmjs.org/@vue/devtools-shared/7.7.10
+npm,@vue/language-core,2.2.12,frontend:dev,MIT,https://registry.npmjs.org/@vue/language-core/2.2.12
+npm,@vue/reactivity,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/reactivity/3.5.17
+npm,@vue/runtime-core,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/runtime-core/3.5.17
+npm,@vue/runtime-dom,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/runtime-dom/3.5.17
+npm,@vue/server-renderer,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/server-renderer/3.5.17
+npm,@vue/shared,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/@vue/shared/3.5.17
+npm,@vueuse/core,9.13.0,frontend:runtime,MIT,https://registry.npmjs.org/@vueuse/core/9.13.0
+npm,@vueuse/metadata,9.13.0,frontend:runtime,MIT,https://registry.npmjs.org/@vueuse/metadata/9.13.0
+npm,@vueuse/shared,9.13.0,frontend:runtime,MIT,https://registry.npmjs.org/@vueuse/shared/9.13.0
+npm,alien-signals,1.0.13,frontend:dev,MIT,https://registry.npmjs.org/alien-signals/1.0.13
+npm,async-validator,4.2.5,frontend:runtime,MIT,https://registry.npmjs.org/async-validator/4.2.5
+npm,balanced-match,1.0.2,frontend:dev,MIT,https://registry.npmjs.org/balanced-match/1.0.2
+npm,birpc,2.9.0,frontend:runtime,MIT,https://registry.npmjs.org/birpc/2.9.0
+npm,brace-expansion,2.1.1,frontend:dev,MIT,https://registry.npmjs.org/brace-expansion/2.1.1
+npm,copy-anything,4.0.5,frontend:runtime,MIT,https://registry.npmjs.org/copy-anything/4.0.5
+npm,csstype,3.2.3,frontend:runtime,MIT,https://registry.npmjs.org/csstype/3.2.3
+npm,dayjs,1.11.21,frontend:runtime,MIT,https://registry.npmjs.org/dayjs/1.11.21
+npm,de-indent,1.0.2,frontend:dev,MIT,https://registry.npmjs.org/de-indent/1.0.2
+npm,echarts,5.6.0,frontend:runtime,Apache-2.0,https://registry.npmjs.org/echarts/5.6.0
+npm,element-plus,2.11.0,frontend:runtime,MIT,https://registry.npmjs.org/element-plus/2.11.0
+npm,entities,4.5.0,frontend:runtime,BSD-2-Clause,https://registry.npmjs.org/entities/4.5.0
+npm,esbuild,0.21.5,frontend:dev,MIT,https://registry.npmjs.org/esbuild/0.21.5
+npm,escape-html,1.0.3,frontend:runtime,MIT,https://registry.npmjs.org/escape-html/1.0.3
+npm,estree-walker,2.0.2,frontend:runtime,MIT,https://registry.npmjs.org/estree-walker/2.0.2
+npm,fsevents,2.3.3,frontend:dev,MIT,https://registry.npmjs.org/fsevents/2.3.3
+npm,he,1.2.0,frontend:dev,MIT,https://registry.npmjs.org/he/1.2.0
+npm,hookable,5.5.3,frontend:runtime,MIT,https://registry.npmjs.org/hookable/5.5.3
+npm,is-what,5.5.0,frontend:runtime,MIT,https://registry.npmjs.org/is-what/5.5.0
+npm,lodash,4.18.1,frontend:runtime,MIT,https://registry.npmjs.org/lodash/4.18.1
+npm,lodash-es,4.18.1,frontend:runtime,MIT,https://registry.npmjs.org/lodash-es/4.18.1
+npm,lodash-unified,1.0.3,frontend:runtime,MIT,https://registry.npmjs.org/lodash-unified/1.0.3
+npm,magic-string,0.30.21,frontend:runtime,MIT,https://registry.npmjs.org/magic-string/0.30.21
+npm,memoize-one,6.0.0,frontend:runtime,MIT,https://registry.npmjs.org/memoize-one/6.0.0
+npm,minimatch,9.0.9,frontend:dev,ISC,https://registry.npmjs.org/minimatch/9.0.9
+npm,mitt,3.0.1,frontend:runtime,MIT,https://registry.npmjs.org/mitt/3.0.1
+npm,muggle-string,0.4.1,frontend:dev,MIT,https://registry.npmjs.org/muggle-string/0.4.1
+npm,nanoid,3.3.15,frontend:runtime,MIT,https://registry.npmjs.org/nanoid/3.3.15
+npm,normalize-wheel-es,1.2.0,frontend:runtime,BSD-3-Clause,https://registry.npmjs.org/normalize-wheel-es/1.2.0
+npm,path-browserify,1.0.1,frontend:dev,MIT,https://registry.npmjs.org/path-browserify/1.0.1
+npm,perfect-debounce,1.0.0,frontend:runtime,MIT,https://registry.npmjs.org/perfect-debounce/1.0.0
+npm,picocolors,1.1.1,frontend:runtime,ISC,https://registry.npmjs.org/picocolors/1.1.1
+npm,pinia,3.0.3,frontend:runtime,MIT,https://registry.npmjs.org/pinia/3.0.3
+npm,postcss,8.5.16,frontend:runtime,MIT,https://registry.npmjs.org/postcss/8.5.16
+npm,rfdc,1.4.1,frontend:runtime,MIT,https://registry.npmjs.org/rfdc/1.4.1
+npm,rollup,4.62.2,frontend:dev,MIT,https://registry.npmjs.org/rollup/4.62.2
+npm,source-map-js,1.2.1,frontend:runtime,BSD-3-Clause,https://registry.npmjs.org/source-map-js/1.2.1
+npm,speakingurl,14.0.1,frontend:runtime,BSD-3-Clause,https://registry.npmjs.org/speakingurl/14.0.1
+npm,superjson,2.2.6,frontend:runtime,MIT,https://registry.npmjs.org/superjson/2.2.6
+npm,tslib,2.3.0,frontend:runtime,0BSD,https://registry.npmjs.org/tslib/2.3.0
+npm,typescript,5.8.3,frontend:runtime,Apache-2.0,https://registry.npmjs.org/typescript/5.8.3
+npm,undici-types,7.8.0,frontend:dev,MIT,https://registry.npmjs.org/undici-types/7.8.0
+npm,vite,5.4.19,frontend:dev,MIT,https://registry.npmjs.org/vite/5.4.19
+npm,vscode-uri,3.1.0,frontend:dev,MIT,https://registry.npmjs.org/vscode-uri/3.1.0
+npm,vue,3.5.17,frontend:runtime,MIT,https://registry.npmjs.org/vue/3.5.17
+npm,vue-demi,0.14.10,frontend:runtime,MIT,https://registry.npmjs.org/vue-demi/0.14.10
+npm,vue-router,4.5.1,frontend:runtime,MIT,https://registry.npmjs.org/vue-router/4.5.1
+npm,vue-tsc,2.2.12,frontend:dev,MIT,https://registry.npmjs.org/vue-tsc/2.2.12
+npm,zrender,5.6.1,frontend:runtime,BSD-3-Clause,https://registry.npmjs.org/zrender/5.6.1
