@@ -4,6 +4,8 @@
 
 完整版本清单见 [`dependency-audit.csv`](dependency-audit.csv)：从两个 Maven 依赖树解析出 129 个唯一构件，从前端锁文件解析出 135 个唯一包版本，共 264 项；每项都有上游许可元数据链接，未发现许可证字段缺失。CSV 保留上游原始许可名称，双重许可条目也保留全部候选许可。本清单覆盖依赖解析结果，不等于对每个二进制包内部版权文件和镜像层完成法律审查。
 
+运行 `scripts/check-dependency-audit.ps1` 可重新解析当前 Maven 依赖树和 npm 锁文件，检查 CSV 是否缺项、重复、过期或缺少许可来源。该脚本已在 Windows PowerShell 本地核对通过；[GitHub Actions 工作流](../../.github/workflows/dependency-audit.yml)在依赖清单或相关配置发生变更的 PR 与 `main` 提交上执行同一检查。脚本只验证清单与当前解析结果一致，不会据此推断许可证义务已全部履行。
+
 ## Java 直接依赖
 
 | 组件 | 当前版本或版本来源 | 发布元数据中的许可证 | 用途 |
@@ -34,6 +36,20 @@ Spring Boot 的 PostgreSQL JDBC 版本可在 [3.5.5 依赖管理 POM](https://re
 | [vue-tsc](https://registry.npmjs.org/vue-tsc/2.2.12) | 2.2.12 | MIT | 开发依赖 |
 
 `frontend/package-lock.json` 固定了传递依赖版本，逐项 npm 许可字段见 CSV。发布编译后的前端文件时，仍须核对所含第三方代码的许可证文本和版权声明是否随分发包保留。
+
+## 多许可证条目与分发边界
+
+CSV 保留上游 POM 中的全部许可名称。以下为本项目在当前源码使用场景中拟采用的许可路径；若将对应 JAR 随安装包分发，仍须依据实际文件核对许可证正文、版权声明及必要的 NOTICE，不得仅凭 POM 字段作合规结论。
+
+| 构件 | 上游提供的路径 | 拟选路径 |
+| --- | --- | --- |
+| `logback-classic`、`logback-core` 1.5.18 | EPL-1.0 或 LGPL | EPL-1.0 |
+| `jakarta.annotation-api` 2.1.1、`jakarta.transaction-api` 2.0.1 | EPL-2.0 或 GPL-2.0 with Classpath Exception | EPL-2.0 |
+| `jakarta.persistence-api` 3.1.0 | EPL-2.0 或 EDL-1.0 | EDL-1.0 |
+| `jna`、`jna-platform` 5.14.0 | LGPL-2.1-or-later 或 Apache-2.0 | Apache-2.0 |
+| `HdrHistogram` 2.2.2 | CC0 或 BSD-2-Clause | BSD-2-Clause |
+
+`hibernate-core` 6.6.26.Final 的上游 POM 声明 LGPL-2.1-or-later，并非上表的双许可证选择项。本仓库仅发布源码，不包含第三方 JAR；未来若发布包含 Hibernate 的二进制包，需要另行检查其 LGPL 条件并提供适用的许可证文本和版权信息。
 
 ## 本地基础设施镜像
 
