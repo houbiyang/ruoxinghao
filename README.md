@@ -53,6 +53,6 @@ npm run build
 
 本项目按根目录 `LICENSE` 中的 MIT License 发布。贡献流程、问题报告要求、验证命令和单人维护规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
-项目中的第三方组件、模型、数据和工具仍受其各自许可证、服务条款和授权范围约束；本项目的 MIT License 不会替代这些独立条款。依赖版本、许可元数据、核对范围与分发边界见 [`docs/open-source/dependency-licenses.md`](docs/open-source/dependency-licenses.md) 和 [`dependency-audit.csv`](docs/open-source/dependency-audit.csv)。本地 Compose 使用的 Redis 7.2.x 按上游说明适用 BSD-3-Clause。
+项目中的第三方组件、模型、数据和工具仍受其各自许可证、服务条款和授权范围约束；本项目的 MIT License 不会替代这些独立条款。依赖版本、许可元数据、核对范围与分发边界见 [`docs/open-source/dependency-licenses.md`](docs/open-source/dependency-licenses.md) 和 [`dependency-audit.csv`](docs/open-source/dependency-audit.csv)；独立比赛运行包的第三方 JAR、前端生产依赖、随包许可文本及待核实事项见[二进制运行包核对](docs/open-source/submission-package-audit.md)。本地 Compose 使用的 Redis 7.2.x 按上游说明适用 BSD-3-Clause。
 
 依赖发生变化时，在 Windows PowerShell 运行 `.\scripts\check-dependency-audit.ps1` 核对清单；[自动检查](.github/workflows/dependency-audit.yml)会在相关 PR 和主分支提交上执行同一脚本。
