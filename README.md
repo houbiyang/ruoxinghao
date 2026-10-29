@@ -49,4 +49,4 @@ npm run build
 
 本项目按根目录 `LICENSE` 中的 MIT License 发布。贡献流程、问题报告要求、验证命令和单人维护规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
-项目中的第三方组件、模型、数据和工具仍受其各自许可证、服务条款和授权范围约束；本项目的 MIT License 不会替代这些独立条款。
+项目中的第三方组件、模型、数据和工具仍受其各自许可证、服务条款和授权范围约束；本项目的 MIT License 不会替代这些独立条款。直接依赖的初步许可盘点、核对范围及待处理项见 [`docs/open-source/dependency-licenses.md`](docs/open-source/dependency-licenses.md)。当前 `redis:7.4` 使用的 RSALv2/SSPLv1 均非 OSI 开源许可证，不能将整套部署描述为所有组件均采用开源许可证。
