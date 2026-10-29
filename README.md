@@ -32,9 +32,9 @@ Copy-Item .env.example .env
 
 ```powershell
 Set-Location backend
-mvn.cmd -s ..\maven-settings.xml test
+mvn.cmd -gs ..\maven-settings.xml -s ..\maven-settings.xml test
 Set-Location ..\simulator
-mvn.cmd -s ..\maven-settings.xml test
+mvn.cmd -gs ..\maven-settings.xml -s ..\maven-settings.xml test
 Set-Location ..\frontend
 npm ci
 npm run type-check
